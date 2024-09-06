@@ -1,0 +1,84 @@
+<!DOCTYPE html> //para el encabezado//
+<html lang="es"> ////
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIMERA PRACTICA HTML</title>
+</head>
+
+<body>
+    <h1>ESTES ES UN ENCABEZADO GRANDOTE</h1>
+    <nav>
+        <li>ELEMENTO 1</li>
+        <li>ELEMENTO 2</li>
+        <li>ELEMENTO 3</li>
+    </nav>
+    <header>La cabecera de nuestra pagina</header>
+    <br>
+    <section>
+        <article>
+            Esto es un parrafo normal <br>
+
+            <a href="https://www.202210160.com.mx">PERIODICO DE ALE</a>
+        </article>
+        <article>
+            imagen 1 <br>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_jTYE5cU0OHU_e5MA5g69UbN0dpoEvYJ5Q&s"alt="KG" width="200" height="300"><br>
+            imagen 2 <br>
+            <img src="https://canal2tv.com/wp-content/uploads/2024/07/beso-karol-feid-concierto.jpg" alt="KG Y FEID" width="200" height="300">
+        <article>
+         reproduccion de  <audio controls >
+
+        <source src="C:\Users\Usuario\OneDrive - TECNOLOGICO DE ESTUDIOS SUPERIORES DE ECATEPEC\DESARROLLO WEB PRACTICAS\PRIMER DEPARTAMENTAL\video\KAROL G - Si Antes Te Hubiera Conocido (Official Video).mp3"type="audio/mpeg">
+    </audio><br>
+       
+            <video controls >
+
+            reproduccion de <source src="C:\Users\Usuario\OneDrive - TECNOLOGICO DE ESTUDIOS SUPERIORES DE ECATEPEC\DESARROLLO WEB PRACTICAS\PRIMER DEPARTAMENTAL\video\KAROL G - Provenza (Official Video).mp4"></video><br>
+
+        </article>
+        <section>
+
+            <form action="./PRACTICA1.html" oninput="range_control_value.value = range_control.valueAsNumber" method="get">
+                <p>
+                    Nombre: <input type="text" name="name_control" autofocus required />
+                    <br />
+                    Corre Electrico: <input type="email" name="email_control"  required />
+                    <br />
+                    URL: <input type="url" name="url_control" placeholder="Escribe la URL de tu pagina web personal" />
+                    <br />
+                    Fecha: <input type="date" name="date_control" />
+                    <br />
+                    Tiempo: <input type="time" name="time_control" />
+                    <br />
+                    Fecha y hora de nacimiento:
+                    <input type="datename" name="datetime_control" />
+                    <br/>
+                    Mes: <input type="month" name="month_control" />
+                    <br />
+                    Semana: <input type="week" name="week_control" />
+                    <br />
+                    Numero (min -10, max 10):
+                    <input type="number" name="number_control" min="-10"  max="10"  value="0" />
+                    <br />
+                    Intervalo (min 0, max 10):
+                    <input type="range" name="range_control" min="0" max="10" value="0" />
+                    <output for="range_control" name="range_control_value">0</output>
+                    <br />
+                    Telefono: <input type="tel" name="tel_control" />
+                    <br />
+                    Termino de busqueda: <input type="search" name="search_control" />
+                    <br />
+                    Color favorito: <input type="color" name="color_control" />
+                    <br />
+                    <input type="submit" value="submit!" />
+                </p>
+            </form>
+        </section>
+        
+        <footer>Este es el pie de mi pagina web</footer>
+
+    
+</body>
+</html>
